@@ -1,0 +1,74 @@
+#key_features .container .row h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 33px;
+  font-weight: 500; }
+#key_features .container .row span {
+  width: 80px;
+  height: 3px;
+  background: #0b60a9;
+  display: inline-block;
+  margin-left: 42%;
+  position: relative; }
+  #key_features .container .row span::before {
+    width: 48px;
+    content: " ";
+    height: 3px;
+    background: #0b60a9;
+    display: inline-block;
+    margin-left: 42%;
+    position: absolute;
+    top: 5px;
+    right: 16px; }
+#key_features .container .row p {
+  font-size: 16px;
+  max-width: 700px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 68px; }
+#key_features .container .row .kart {
+  -webkit-box-shadow: 0px 0px 32px 0px rgba(122, 122, 122, 0.1);
+          box-shadow: 0px 0px 32px 0px rgba(122, 122, 122, 0.1); }
+  #key_features .container .row .kart:hover {
+    -webkit-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    -webkit-transition-duration: 1s;
+            transition-duration: 1s; }
+  #key_features .container .row .kart .inner-wrapper a .fas {
+    font-size: 30px;
+    margin-left: 39%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: #0b60a9; }
+    #key_features .container .row .kart .inner-wrapper a .fas::before {
+      content: "\f5ac";
+      border: 1px solid #f0f6fa;
+      background: #f0f6fa;
+      width: 80px;
+      height: 80px;
+      display: inline-block;
+      text-align: center;
+      line-height: 75px;
+      border-radius: 100%; }
+  #key_features .container .row .kart .inner-wrapper .text h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px; }
+    #key_features .container .row .kart .inner-wrapper .text h3:hover {
+      color: #0b60a9; }
+  #key_features .container .row .kart .inner-wrapper .text .p {
+    text-align: center;
+    max-width: 308px;
+    margin-left: 18px;
+    margin-bottom: 20px; }
+  #key_features .container .row .kart .inner-wrapper .text .know_more {
+    color: black;
+    margin-bottom: 39px;
+    display: inline-block;
+    margin-left: 39%;
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
